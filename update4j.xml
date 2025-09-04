@@ -14,7 +14,7 @@
     <files>
         <!-- JAR principal da aplicação -->
         <file path="MinhaAplicacao.jar" 
-              uri="https://drive.google.com/uc?export=download&id=19ww9SdVv4rCAshtAatOe_3vIY-Fce8IG"
+              uri="https://github.com/Hyawa/AutoUpdateJava/raw/refs/heads/main/AutoUpdateJava.jar"
               size="1234567"
               checksum="abc123def456"
               classpath="true"
@@ -46,4 +46,5 @@
         </vmArgs>
     </launcher>
     
+
 </configuration>
