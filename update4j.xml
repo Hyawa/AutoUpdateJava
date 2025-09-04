@@ -13,11 +13,11 @@
     <!-- Arquivos da aplicação -->
     <files>
         <!-- JAR principal da aplicação -->
-        <file path="AutoUpdateJava.jar"
-              uri="https://github.com/Hyawa/AutoUpdateJava/raw/refs/heads/main/AutoUpdateJava.jar"
-              size="136598"
-              checksum="1234567890"
-              classpath="true"/>
+        <file path="AutoUpdateJava_v0.0.4.jar"
+      uri="https://github.com/Hyawa/AutoUpdateJava/raw/refs/heads/main/AutoUpdateJava_v0.0.4.jar"
+      size="146653"
+      checksum="888440017"
+      classpath="true"/>
 
         <!-- Bibliotecas dependentes (comentado porque URI estava vazia) -->
         <!--
@@ -50,3 +50,4 @@
     </launcher>
 
 </configuration>
+
