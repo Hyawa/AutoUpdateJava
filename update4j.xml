@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://www.update4j.org/schemas/config">
+    
+    <!-- Configurações base -->
+    <base path="${user.dir}/app"/>
+    
+    <!-- Propriedades -->
+    <properties>
+        <property key="app.version" value="1.0.0"/>
+        <property key="app.name" value="MinhaAplicacao"/>
+    </properties>
+    
+    <!-- Arquivos da aplicação -->
+    <files>
+        <!-- JAR principal da aplicação -->
+        <file path="MinhaAplicacao.jar" 
+              uri="https://drive.google.com/uc?export=download&id=19ww9SdVv4rCAshtAatOe_3vIY-Fce8IG"
+              size="1234567"
+              checksum="abc123def456"
+              classpath="true"
+              modulepath="false"/>
+        
+        <!-- Bibliotecas dependentes -->
+        <file path="libs/dependency1.jar" 
+              uri=""
+              size="789012"
+              checksum="def789abc123"
+              classpath="true"
+              modulepath="false"/>
+              
+        <!-- Arquivos de configuração -->
+        <file path="config/app.properties" 
+              uri=""
+              size="1024"
+              checksum="xyz789uvw456"/>
+    </files>
+    
+    <!-- Configuração de inicialização -->
+    <launcher>
+        <mainClass>app.Main</mainClass>
+        <args>
+            <arg>${app.name}</arg>
+        </args>
+        <vmArgs>
+            <vmArg>-Xmx512m</vmArg>
+        </vmArgs>
+    </launcher>
+    
+</configuration>
