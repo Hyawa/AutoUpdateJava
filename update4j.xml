@@ -7,10 +7,10 @@
     </properties>
     <files>
         <file path="AutoUpdateJava_v0.0.10.jar"
-              uri="https://github.com/Hyawa/AutoUpdateJava/raw/refs/heads/main/AutoUpdateJava_v0.0.10.jar"
-              size="149013"
-              checksum="2125750828"
-              classpath="true"/>
+      uri="https://github.com/Hyawa/AutoUpdateJava/raw/refs/heads/main/AutoUpdateJava_v0.0.10.jar"
+      size="149013"
+      checksum="2125750828"
+      classpath="true"/>
     </files>
     <launcher>
         <mainClass>app.Main</mainClass>
@@ -22,3 +22,4 @@
         </vmArgs>
     </launcher>
 </configuration>
+
