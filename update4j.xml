@@ -1,42 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration xmlns="http://www.update4j.org/schemas/config">
-
-    <!-- Configurações base -->
     <base path="${user.dir}/app"/>
-
-    <!-- Propriedades -->
     <properties>
-        <property key="app.version" value="0.0.8"/>
+        <property key="app.version" value="0.0.10"/>
         <property key="app.name" value="AutoUpdateJava"/>
     </properties>
-
-    <!-- Arquivos da aplicação -->
-    <file path="AutoUpdateJava_v0.0.10.jar"
-      uri="https://github.com/Hyawa/AutoUpdateJava/raw/refs/heads/main/AutoUpdateJava_v0.0.10.jar"
-      size="149013"
-      checksum="2125750828"
-      classpath="true"/>
-
-        <!-- Bibliotecas dependentes (comentado porque URI estava vazia) -->
-        <!--
-        <file path="libs/dependency1.jar"
-              uri="https://github.com/Hyawa/AutoUpdateJava/raw/refs/heads/main/libs/dependency1.jar"
-              size="789012"
-              checksum="def789abc123"
-              classpath="true"
-              modulepath="false"/>
-        -->
-
-        <!-- Arquivos de configuração (comentado porque URI estava vazia) -->
-        <!--
-        <file path="config/app.properties"
-              uri="https://github.com/Hyawa/AutoUpdateJava/raw/refs/heads/main/config/app.properties"
-              size="1024"
-              checksum="xyz789uvw456"/>
-        -->
+    <files>
+        <file path="AutoUpdateJava_v0.0.10.jar"
+              uri="https://github.com/Hyawa/AutoUpdateJava/raw/refs/heads/main/AutoUpdateJava_v0.0.10.jar"
+              size="149013"
+              checksum="2125750828"
+              classpath="true"/>
     </files>
-
-    <!-- Configuração de inicialização -->
     <launcher>
         <mainClass>app.Main</mainClass>
         <args>
@@ -46,11 +21,4 @@
             <vmArg>-Xmx512m</vmArg>
         </vmArgs>
     </launcher>
-
 </configuration>
-
-
-
-
-
-
